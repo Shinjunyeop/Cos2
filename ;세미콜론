@@ -1,0 +1,18 @@
+# 줄 바뀜 차이가 프로그램으로 차이가 생기지 않는다
+# 세 main 함수는 모두 동일한 프로그램이다
+
+#1번
+int main(void)
+{
+	printf("Hello World! \n"); return 0;
+}
+
+#2번
+int main(void)
+{
+	printf("Hello world! \n");
+	return 0;
+}
+
+#3번
+int main(void) { printf("Hello World! \n"); return 0; }
